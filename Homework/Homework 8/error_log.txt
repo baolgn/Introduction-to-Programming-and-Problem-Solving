@@ -1,0 +1,15 @@
+ValueError at LINE 2: The value read, '2.0', cannot be casted into an integer to be used as an index.
+ValueError at LINE 4: The value read, '4.5', cannot be casted into an integer to be used as an index.
+ValueError at LINE 7: The value read, '7.1', cannot be casted into an integer to be used as an index.
+ValueError at LINE 9: The value read, '9.6', cannot be casted into an integer to be used as an index.
+IndexError at LINE 10: The value read, 10, is larger than the sequence length of 9.
+IndexError at LINE 11: The value read, 11, is larger than the sequence length of 9.
+ValueError at LINE 12: The value read, '12.4', cannot be casted into an integer to be used as an index.
+IndexError at LINE 13: The value read, 13, is larger than the sequence length of 9.
+IndexError at LINE 14: The value read, 14, is larger than the sequence length of 9.
+IndexError at LINE 15: The value read, 15, is larger than the sequence length of 9.
+ValueError at LINE 16: The value read, '16.9', cannot be casted into an integer to be used as an index.
+IndexError at LINE 17: The value read, 17, is larger than the sequence length of 9.
+IndexError at LINE 18: The value read, 18, is larger than the sequence length of 9.
+IndexError at LINE 19: The value read, 19, is larger than the sequence length of 9.
+IndexError at LINE 20: The value read, 20, is larger than the sequence length of 9.
