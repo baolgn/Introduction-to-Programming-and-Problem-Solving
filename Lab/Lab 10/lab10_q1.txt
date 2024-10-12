@@ -1,0 +1,3 @@
+a) 82
+b) Oleg
+c) {'Kimberly': 13, 'Amalie': 27, 'Mariam': 30, 'Oleg': 23}

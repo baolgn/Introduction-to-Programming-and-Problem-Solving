@@ -1,0 +1,1 @@
+The code Jason provided is not correct. It does not actually countdown from the positive input 'n' to 0. Instead, it counts up from 'n' indefinitely because of the line countdown(n + 1), which increases the value of 'n' with each recursive call.

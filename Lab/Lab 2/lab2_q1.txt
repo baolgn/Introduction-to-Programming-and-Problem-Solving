@@ -1,0 +1,3 @@
+1A. B, C
+1B. A, D
+2. Choosing string concatenation over printing with commas can be beneficial for performance-critical applications due to reduced overhead from multiple function calls.

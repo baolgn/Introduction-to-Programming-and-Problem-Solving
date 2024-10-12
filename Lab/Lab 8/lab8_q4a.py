@@ -1,0 +1,34 @@
+"""
+Author: Bao Nguyen
+Assignment / Part: Lab 8 - Q4a
+Date: March 29
+I pledge that I have completed this assignment without collaborating
+with anyone else, in conformance with the NYU School of Engineering
+Policies and Procedures on Academic Misconduct.
+"""
+
+
+def get_last_char(filename):
+    try:
+        with open(filename, 'r') as file:
+            lines = file.readlines()
+            for line in reversed(lines):
+                for char in reversed(line):
+                    if char.isalpha():
+                        return char
+    except FileNotFoundError:
+        print(f"The file '{filename}' does not exist.")
+        return None
+
+
+def main():
+    filename = "alphabet.txt"
+    last_char = get_last_char(filename)
+    if last_char is not None:
+        print(f"The last alphabetic character in '{filename}' is: {last_char}")
+    else:
+        print(f"No alphabetic character found in '{filename}'")
+
+
+if __name__ == "__main__":
+    main()

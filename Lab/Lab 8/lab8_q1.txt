@@ -1,0 +1,19 @@
+a)
+If data.txt exists:
+<contents of the first line of data.txt>
+Finally.
+
+If data.txt does not exist
+data.txt not found.
+Finally.
+
+b)
+5
+6
+12
+16
+3
+2
+12
+8
+True
